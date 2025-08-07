@@ -2,10 +2,9 @@
 <ul>
   <% @project.todos.each do |todo| %>
     <li>
-      <%= link_to todo.name, todo_path(todo) %>
+      <%= link_to todo.name, todo_path(todo), class: "text-blue-300" %>
       <% if todo.completed %>✅<% end %>
     </li>
   <% end %>
-
 </ul>
 <%= button_to "Delete Project", project_path(@project), method: :delete %>

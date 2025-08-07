@@ -65,3 +65,5 @@ end
 group :development do
   gem "erb_lint", require: false
 end
+
+gem "tailwindcss-rails"
