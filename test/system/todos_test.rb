@@ -36,7 +36,7 @@ class TodosTest < ApplicationSystemTestCase
 
   test "should destroy Todo" do
     visit todo_url(@todo)
-    click_on "Destroy this todo", match: :first
+    click_on "Delete this todo", match: :first
 
     assert_text "Todo was successfully destroyed"
   end
