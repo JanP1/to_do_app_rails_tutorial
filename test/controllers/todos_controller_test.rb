@@ -17,11 +17,12 @@ class TodosControllerTest < ActionDispatch::IntegrationTest
 
   test "should create todo" do
     assert_difference("Todo.count") do
-      post todos_url, params: { todo: { description: @todo.description, name: @todo.name } }
+      post todos_url, params: { todo: { description: @todo.description, name: @todo.name, project_id: @todo.project_id } }
     end
-
+  
     assert_redirected_to todo_url(Todo.last)
   end
+
 
   test "should show todo" do
     get todo_url(@todo)
