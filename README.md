@@ -6,21 +6,22 @@ This is a tutorial project following the tutorial "Rails New, a beginner's Ruby 
 ## Set up instructions
 
 
-**Make sure you have the following installed**:
+### **Make sure you have the following installed**:
 * Ruby (version 3.4.5)
 * Rails (version 8.0.2)
 
-**Install gems running:**
+### **Install gems running:**
 bundle install
 
 
-**Set up the database**
+### **Set up the database**
 
 rails db:create
 
 rails db:migrate
 
-**Run the server**
+### **Run the server**
+
 rails server
 
 
