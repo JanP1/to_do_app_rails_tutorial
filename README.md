@@ -11,18 +11,19 @@ This is a tutorial project following the tutorial "Rails New, a beginner's Ruby 
 * Rails (version 8.0.2)
 
 ### **Install gems running:**
-bundle install
+`bundle install`
 
 
 ### **Set up the database**
 
+```
 rails db:create
-
 rails db:migrate
+```
 
 ### **Run the server**
 
-rails server
+`rails server`
 
 
 
