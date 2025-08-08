@@ -19,7 +19,6 @@ class TodosControllerTest < ActionDispatch::IntegrationTest
     assert_difference("Todo.count") do
       post todos_url, params: { todo: { description: @todo.description, name: @todo.name, project_id: @todo.project_id } }
     end
-  
     assert_redirected_to todo_url(Todo.last)
   end
 

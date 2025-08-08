@@ -12,10 +12,12 @@ class TodosTest < ApplicationSystemTestCase
 
   test "should create todo" do
     visit todos_url
-    click_on "New todo"
+    click_on "New Todo"
 
     fill_in "Description", with: @todo.description
     fill_in "Name", with: @todo.name
+    select "one", from: "Project"
+
     click_on "Create Todo"
 
     assert_text "Todo was successfully created"
