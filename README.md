@@ -10,7 +10,7 @@ This is a tutorial project following the tutorial "Rails New, a beginner's Ruby 
 * Ruby (version 3.4.5)
 * Rails (version 8.0.2)
 
-**Install gems running:**:
+**Install gems running:**
 bundle install
 
 
