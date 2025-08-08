@@ -7,8 +7,8 @@ This is a tutorial project following the tutorial "Rails New, a beginner's Ruby 
 
 
 **Make sure you have the following installed**:
-*Ruby (version 3.4.5)
-*Rails (version 8.0.2)
+* Ruby (version 3.4.5)
+* Rails (version 8.0.2)
 
 **Install gems running:**:
 bundle install
